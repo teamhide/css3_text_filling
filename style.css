@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  background-color: #000;
+}
+.text-container h1 {
+  font-size: 150px;
+  color: rgba(225, 225, 225, 0.1);
+  background-image: url(color.jpeg);
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+.text-container {
+  margin-top: 17%;
+  text-align: center;
+}
+
+@keyframes animate {
+  0% {
+    background-position: left 0px top 10px;
+  }
+  100% {
+    background-position: left 800px top 10px;
+  }
+}
